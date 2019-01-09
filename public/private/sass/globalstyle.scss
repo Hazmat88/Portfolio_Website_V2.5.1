@@ -1,0 +1,52 @@
+
+
+//IMPORT EXTERN FILES NECESSARY Mobile & Desktop
+@import "reset.scss";
+
+//IMPORT VARIABLES
+@import "var/colors.scss";
+
+//IMPORT MIXINS
+@import "Mixins/mixins.scss";
+
+
+//IMPORT MOBILE STYLE FIRST
+@import "Mobile/mobile_style.scss";
+
+//IMPORT DESKTOP STYLE on Condition scree-size
+@media screen and (min-width: 600px){
+
+@import "Desktop/desktop_style.scss";
+}
+
+
+
+
+
+
+//Global stylesheet
+
+html,body{ //Definition hauteur element parent pour les enfants prennent tout la hauteur de l'ecran voulu avec propriété vh
+  height: 100%;
+}
+
+body{
+  background-color: $darkgrey;
+   //transition: background-color .5s;
+}
+
+h1,p{
+    color:$black;
+    text-align: center;
+    font-size:2em;
+  //  color:white;
+}
+
+h2{
+    color:$black;
+    text-align: center;
+    font-size:1.5em;
+  //  color:white;
+}
+
+// test_js

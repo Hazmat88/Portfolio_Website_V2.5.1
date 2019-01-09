@@ -1,0 +1,21 @@
+* Git
+    * Pull Request exemle if you have no remote configured
+        git remote add origin https://github.com/USERNAME/REPOSITORY_NAME.git
+
+        => git remote add origin https://github.com/Hazmat88/Portfolio_Website_V2.1512.git
+
+        then remote set, you can made a pull like that:
+        git pull origin master
+
+
+* Fallback
+
+      Si un element html/(php) Ne se charge pas chez l'utilisateur on peut faire a la notion de fallback qui nous permet de parametrer ce que l'on souhaite faire en cas d'échec de chargement
+
+      ex: <img src="base-image.svg" alt="picture" />
+          <!--[if (lte IE 8)|(!IE)]><image src="fallback-image.png" alt="picture" /><![endif]-->
+
+* Liens/src/url dans une arborescence découper
+
+      réaliser le lien en fonction d'ou sera charger en dernier la page. je m'explique exemple:
+          si nous avons découper notre page en plusieurs section php, les lien src/url & co devront se faire en partant du fichiers qui inclu les section et non directement depuis la/les sections.

@@ -1,0 +1,49 @@
+
+//NECESSARY IMPORT
+@import "../var/colors.scss";
+
+
+.section_00{
+//  background-color: $brown;
+   //Occupation de toute la taille ecran disponible
+  left: 0; right:0;
+  min-height: 100vh;
+
+  h2{
+  position:absolute;
+  left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+    margin-top: 68vh;
+    font-size:2.1em;
+  }
+
+  h1{
+  position:absolute;
+  left: 50%; /* à 50%/50% du parent référent */
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  margin-top: 82vh;
+  font-size:2em;
+  font-weight: bold;
+  }
+
+}
+
+
+.logo_CV {
+  //position : absolute;
+  width:40vh; height:40vh;
+  //margin-top:30vh;
+  padding-top:50vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../private/img/logo.png") no-repeat center;//fallback
+  background-image: url('../img/logo_CV.svg');
+  background-size: contain;
+}
+
+
+//fleche scrolling
+.toscroll{
+
+}
