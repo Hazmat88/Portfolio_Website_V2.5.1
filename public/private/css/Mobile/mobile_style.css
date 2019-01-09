@@ -61,35 +61,65 @@ nav {
   background-image: url("../img/logo_CV.svg");
   background-size: contain; }
 
+.toscroll {
+  display: block;
+  width: 20vh;
+  height: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+                     /*
+
+  background: url("../private/img/logo.png") no-repeat center;//fallback
+  background-image: url('../img/logo_CV.svg');
+  background-size: contain;
+*/
+  background-color: #3a3c3b; }
+
 .section_01 {
   background-color: #3a3c3b;
   left: 0;
   right: 0;
   min-height: 110vh; }
+  .section_01 h1 {
+    color: #eeebdc;
+    text-align: center;
+    padding-top: 5vh; }
+  .section_01 p {
+    color: #eeebdc; }
 
 .section_02 {
   background-color: #eeebdc;
   left: 0;
   right: 0;
   min-height: 110vh; }
+  .section_02 h1 {
+    padding-top: 5vh; }
 
 .section_03 {
   background-color: #aba9aa;
   left: 0;
   right: 0;
   min-height: 110vh; }
+  .section_03 h1 {
+    padding-top: 5vh; }
 
 .section_04 {
   background-color: #8b8b83;
   left: 0;
   right: 0;
   min-height: 110vh; }
+  .section_04 h1 {
+    padding-top: 5vh; }
 
 .section_05 {
   background-color: #d9d1cf;
   left: 0;
   right: 0;
   min-height: 110vh; }
+  .section_05 h1 {
+    padding-top: 5vh; }
 
 .menu {
   position: fixed;

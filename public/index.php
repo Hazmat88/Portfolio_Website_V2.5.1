@@ -33,18 +33,23 @@
    include("private/Websections/section_02.php");
 
 
-//  WORKDONE
-//-- -------------- Section03 / WORKDONE ----------------- -->
+//
+//-- -------------- Section03 / SKILLS_C ----------------- -->
    include("private/Websections/section_03.php");
 
-//  FORM
-//-- -------------- Section04 / FORM ----------------- -->
+//  WORKDONE
+//-- -------------- Section04 / PROJECTS ----------------- -->
    include("private/Websections/section_04.php");
 
 
-//  FOOTER
-//-- -------------- Section05 / FOOTER ----------------- -->
+//  CONTACT
+//-- -------------- Section05 / CONTACT ----------------- -->
+     include("private/Websections/section_05.php");
 
+
+//  FOOTER
+//-- -------------- Section05 / CONTACT ----------------- -->
+    //include("private/Websections/section_06.php");
 
 ?>
 

@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "AAIA,WAAW;EACT,gBAAgB,ECHV,OAAO;EDIb,IAAI,EAAE,CAAC;EAAE,KAAK,EAAC,CAAC;EAChB,UAAU,EAAE,KAAK",
-"sources": ["../../sass/Mobile/section_02m.scss","../../sass/var/colors.scss"],
+"mappings": "AAKA,WAAW;EACT,gBAAgB,ECJV,OAAO;EDKb,IAAI,EAAE,CAAC;EAAE,KAAK,EAAC,CAAC;EAChB,UAAU,EAAE,KAAK;EAEjB,cAAE;IACA,WAAW,EEPP,GAAG",
+"sources": ["../../sass/Mobile/section_02m.scss","../../sass/var/colors.scss","../../sass/var/fonts.scss"],
 "names": [],
 "file": "section_02m.css"
 }

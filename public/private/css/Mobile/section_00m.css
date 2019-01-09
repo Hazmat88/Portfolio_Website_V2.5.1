@@ -32,4 +32,20 @@
   background-image: url("../img/logo_CV.svg");
   background-size: contain; }
 
+.toscroll {
+  display: block;
+  width: 20vh;
+  height: 5vh;
+  padding-top: 5vh;
+  padding-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+                     /*
+
+  background: url("../private/img/logo.png") no-repeat center;//fallback
+  background-image: url('../img/logo_CV.svg');
+  background-size: contain;
+*/
+  background-color: #3a3c3b; }
+
 /*# sourceMappingURL=section_00m.css.map */

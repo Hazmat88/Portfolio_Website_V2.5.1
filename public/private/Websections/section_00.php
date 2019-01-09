@@ -3,11 +3,19 @@
 
 <section class="section_00">
 
+  <!-- Name & Job -->
   <h2>Matthews</h2>
   <h1>WEB DEVELOPPEUR JR</h1>
 
+  <!-- ----------------------- -->
   <!-- LOGO PART -->
   <div class="logo_CV"></div>
+  <!-- input for CV -->
   <div class="logo_portfolio"></div>
+  <!-- input for Portfolio -->
+
+  <!-- ----------------------- -->
+  <div class="toscroll"></div>
+
 
 </section>

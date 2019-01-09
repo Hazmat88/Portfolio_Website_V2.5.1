@@ -1,4 +1,4 @@
-* Git
+﻿* Git
     * Pull Request exemle if you have no remote configured
         git remote add origin https://github.com/USERNAME/REPOSITORY_NAME.git
 
@@ -6,6 +6,8 @@
 
         then remote set, you can made a pull like that:
         git pull origin master
+
+	* Push Request Seem Need to git init the project and add remote and necessary to do a 	pull Request Before made a push.
 
 
 * Fallback
