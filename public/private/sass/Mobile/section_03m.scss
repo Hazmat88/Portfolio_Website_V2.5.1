@@ -6,10 +6,26 @@
 .section_03{
   background-color: $grey;
   left: 0; right:0;
-  min-height: 110vh;
+  min-height: 120vh;
 
   h1{
+    color:$black;
+    width: 220px;
     padding-top:$padtop;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  p{
+    line-height:1.5;
+    color:$black;
+    width: 220px;
+    font-size: 1.3em;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    margin-left: auto;
+    margin-right: auto;
   }
 
 }

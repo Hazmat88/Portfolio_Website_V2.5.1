@@ -1,13 +1,8 @@
 <!-- WRAPPER -->
 
 
-<section class="section_00">
+<section id="section_00" class="section_00">
 
-  <!-- Name & Job -->
-  <h2>Matthews</h2>
-  <h1>WEB DEVELOPPEUR JR</h1>
-
-  <!-- ----------------------- -->
   <!-- LOGO PART -->
   <div class="logo_CV"></div>
   <!-- input for CV -->
@@ -15,7 +10,16 @@
   <!-- input for Portfolio -->
 
   <!-- ----------------------- -->
-  <div class="toscroll"></div>
+
+  <!-- Name & Job -->
+  <h2>Matthews</h2>
+  <h1>WEB DEV JR</h1>
+  <h1 class="job_d">WEB DEVELOPPEUR JR</h1>
+
+
+  <!-- ----------------------- -->
+    <a href="section_01"><div class="toscroll">
+  </div></a>
 
 
 </section>

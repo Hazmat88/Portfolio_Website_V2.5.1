@@ -5,14 +5,22 @@
 .section_01{
   background-color: $black;
   left: 0; right:0;
-  min-height: 110vh;
+  min-height: 50vh;
 
-  h1{
-    color:$beige;
-    text-align: center;
-    padding-top:$padtop;
-  }
-  p{
-    color:$beige;
-  }
+      h1{
+        color:$beige;
+        text-align: center;
+        padding-top:$padtop;
+        font-size: 2em;
+      }
+
+      p{
+        line-height:1.5;
+        color:$beige;
+        width: 175px;
+        font-size: 1.3em;
+        margin-top: 10vh;
+        margin-left: auto;
+        margin-right: auto;
+      }
 }

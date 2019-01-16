@@ -31,22 +31,17 @@ html,body{ //Definition hauteur element parent pour les enfants prennent tout la
 }
 
 body{
-  background-color: $darkgrey;
+  background-color: blue;
+  //background-color: $darkgrey;
    //transition: background-color .5s;
 }
 
-h1,p{
+h1,h2{
     color:$black;
-    text-align: center;
-    font-size:2em;
-  //  color:white;
 }
 
-h2{
-    color:$black;
-    text-align: center;
-    font-size:1.5em;
-  //  color:white;
-}
 
-// test_js
+p{
+  color:$black;
+//  text-align: center;
+}

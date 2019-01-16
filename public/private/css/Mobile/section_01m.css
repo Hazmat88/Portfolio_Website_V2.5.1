@@ -2,12 +2,19 @@
   background-color: #3a3c3b;
   left: 0;
   right: 0;
-  min-height: 110vh; }
+  min-height: 50vh; }
   .section_01 h1 {
     color: #eeebdc;
     text-align: center;
-    padding-top: 5vh; }
+    padding-top: 5vh;
+    font-size: 2em; }
   .section_01 p {
-    color: #eeebdc; }
+    line-height: 1.5;
+    color: #eeebdc;
+    width: 175px;
+    font-size: 1.3em;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto; }
 
 /*# sourceMappingURL=section_01m.css.map */

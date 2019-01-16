@@ -4,38 +4,29 @@
 
 
 .section_00{
-//  background-color: $brown;
+  background-color: $darkgrey;
    //Occupation de toute la taille ecran disponible
   left: 0; right:0;
   min-height: 100vh;
+    //-------- Titles -------
+      h1{
+        text-align: center;
+        font-size: 2.5em;
+        padding-top:3vh;
+      }
 
-  //NAME
-  h2{
-  position:absolute;
-  left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-    margin-top: 68vh;
-    font-size:2.1em;
-  }
-  //JOB
-  h1{
-  position:absolute;
-  left: 50%; /* à 50%/50% du parent référent */
-  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
-  margin-top: 82vh;
-  font-size:2em;
-  font-weight: bold;
-  }
-
+      h2,{
+        text-align: center;
+        margin-top:-20vh;
+        font-size: 2.3em;
+      }
 }
 
-//LOGO
+//--------------- LOGO ----------------------
 .logo_CV {
-  //position : absolute;
-  width:40vh; height:40vh;
-  //margin-top:30vh;
-  padding-top:50vh;
-  display: block;
+  width:35vh; height:35vh;
+  padding-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  //transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
   margin-left: auto;
   margin-right: auto;
   background: url("../private/img/logo.png") no-repeat center;//fallback
@@ -43,19 +34,23 @@
   background-size: contain;
 }
 
+//--------------- Titles ----------------------
+.job_d{
+  visibility:hidden;
+}
 
-//FLECHE SCROLL
+
+
+//-----------Botom Arow To-Scroll --------------
 .toscroll{
-  display: block;
-  width:20vh; height:5vh;
-  padding-top:5vh;
-  padding-bottom:0px;
+  position:absolute;
+  height:5vh; width:10vh;
+  left: 50%; /* à 50%/50% du parent référent */
+  transform: translateX(-50%); /* décalage de 50% de sa propre taille */
+  bottom:20px; //2vh
   margin-left: auto;
-  margin-right: auto;/*
-
-  background: url("../private/img/logo.png") no-repeat center;//fallback
-  background-image: url('../img/logo_CV.svg');
+  margin-right: auto;
+  background: url("../private/img/toscroll.svg") no-repeat center;//fallback
+  background-image: url('../img/toscroll.svg');
   background-size: contain;
-*/
-  background-color: $black;
 }

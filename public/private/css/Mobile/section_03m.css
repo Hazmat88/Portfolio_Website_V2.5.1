@@ -2,8 +2,22 @@
   background-color: #aba9aa;
   left: 0;
   right: 0;
-  min-height: 110vh; }
+  min-height: 120vh; }
   .section_03 h1 {
-    padding-top: 5vh; }
+    color: #3a3c3b;
+    width: 220px;
+    padding-top: 5vh;
+    font-size: 2em;
+    margin-left: auto;
+    margin-right: auto; }
+  .section_03 p {
+    line-height: 1.5;
+    color: #3a3c3b;
+    width: 220px;
+    font-size: 1.3em;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    margin-left: auto;
+    margin-right: auto; }
 
 /*# sourceMappingURL=section_03m.css.map */
