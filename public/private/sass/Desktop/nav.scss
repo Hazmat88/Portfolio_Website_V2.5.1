@@ -1,12 +1,14 @@
-
+@import "../var/colors.scss";
+@import "../var/fonts.scss";
+@import "../var/size.scss";
 
 
 //------- NAV LOGO -------------------------
 
 .logo_home {
 
-  width:60px; height:60px;
-  top:20px; left: 20px;
+  width:$wszlogo; height:$hszlogo;
+  top:$spacelogo_n; left: $spacelogo_n;
   /*position: absolute;
   background: url("../private/img/logo.png") no-repeat center;//fallback
   background-image: url('../img/logo_home.svg');
@@ -14,8 +16,8 @@
 }
 
 .logo_menu {
-  width:60px; height:60px;
-  right:20px; top:20px;
+  width:$wszlogo; height:$hszlogo;
+  right:$spacelogo_n; top:$spacelogo_n;
   /*  position: absolute;
   background: url("../private/img/logo.png") no-repeat center;//fallback
   background-image: url('../img/logo_menu.svg');
@@ -23,7 +25,7 @@
 }
 
 //--------- NAV MENU ---------------------------------
-
+/*
 .section_00{
   h1{
     margin-top: 100px;
@@ -33,4 +35,4 @@
     padding-top: 100px;
     font-size:2.5em;
   }
-}
+}*/

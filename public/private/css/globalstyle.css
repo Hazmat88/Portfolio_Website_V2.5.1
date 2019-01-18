@@ -134,7 +134,7 @@ nav {
   .section_02 p {
     line-height: 1.5;
     color: #3a3c3b;
-    width: 175px;
+    width: 160px;
     font-size: 1.3em;
     margin-top: 10vh;
     margin-left: auto;
@@ -155,10 +155,10 @@ nav {
   .section_03 p {
     line-height: 1.5;
     color: #3a3c3b;
-    width: 220px;
+    width: 215px;
     font-size: 1.3em;
     margin-top: 5vh;
-    margin-bottom: 7vh;
+    padding-bottom: 6vh;
     margin-left: auto;
     margin-right: auto; }
 
@@ -166,16 +166,19 @@ nav {
   background-color: #8b8b83;
   left: 0;
   right: 0;
-  min-height: 110vh; }
+  min-height: 150vh; }
   .section_04 h1 {
-    padding-top: 5vh; }
+    color: #3a3c3b;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2em; }
 
 .S0401, .S0402, .S0403 {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5vh;
-  width: 60vw;
-  height: 20vh;
+  margin-top: 10vh;
+  width: 70vw;
+  height: 30vh;
   background-color: #3a3c3b; }
 
 .section_05 {
@@ -184,7 +187,10 @@ nav {
   right: 0;
   min-height: 110vh; }
   .section_05 h1 {
-    padding-top: 5vh; }
+    color: #3a3c3b;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2em; }
 
 .menu {
   position: fixed;
@@ -255,74 +261,145 @@ ul {
 
 @media screen and (min-width: 600px) {
   .logo_home {
-    width: 60px;
-    height: 60px;
-    top: 20px;
-    left: 20px;
+    width: 70px;
+    height: 70px;
+    top: 30px;
+    left: 30px;
     /*position: absolute;
     background: url("../private/img/logo.png") no-repeat center;//fallback
     background-image: url('../img/logo_home.svg');
     background-size: contain;*/ }
 
   .logo_menu {
-    width: 60px;
-    height: 60px;
-    right: 20px;
-    top: 20px;
+    width: 70px;
+    height: 70px;
+    right: 30px;
+    top: 30px;
     /*  position: absolute;
     background: url("../private/img/logo.png") no-repeat center;//fallback
     background-image: url('../img/logo_menu.svg');
     background-size: contain;*/ }
 
-  .section_00 h1 {
-    margin-top: 100px;
-    font-size: 2.5em; }
-  .section_00 h2 {
-    padding-top: 100px;
-    font-size: 2.5em; }
-
+  /*
+  .section_00{
+    h1{
+      margin-top: 100px;
+          font-size:2.5em;
+    }
+    h2{
+      padding-top: 100px;
+      font-size:2.5em;
+    }
+  }*/
   .section_00 {
     background-color: #eeebdc; }
     .section_00 h1 {
       position: absolute;
-      top: 300px;
-      font-size: 3.5em; }
+      top: 25vh;
+      font-size: 7vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 50%;
+      /* ├á 50%/50% du parent r├®f├®rent */
+      transform: translateX(-50%); }
     .section_00 h2 {
       position: absolute;
-      top: 200px;
-      font-size: 3.5em; }
+      top: 40vh;
+      font-size: 5vh;
+      margin-left: auto;
+      margin-right: auto;
+      left: 50%;
+      /* ├á 50%/50% du parent r├®f├®rent */
+      transform: translateX(-50%); }
 
-  /*.test{
-    width: 300px;
-    height: 300px;
-    background-color: $black;
-  }*/
   .logo_CV {
-    width: 250px;
-    height: 250px;
-    display: inline;
-    float: left;
-    /*  margin-left: auto;
-      margin-right: auto;*/
+    position: absolute;
+    width: 14vw;
+    height: 14vh;
+    padding-top: 100vh;
+    margin-left: 18vw;
     background: url("../private/img/logo.png") no-repeat center;
     background-image: url("../img/logo_CV.svg");
     background-size: contain; }
 
+  .name_CV {
+    margin-top: 73vh;
+    margin-left: 18vw;
+    position: absolute;
+    background-color: #3a3c3b;
+    width: 14vw;
+    height: 5vh;
+    border-radius: 4px; }
+
   .logo_portfolio {
-    top: 200px;
-    display: inline;
+    position: absolute;
     visibility: visible;
-    width: 260px;
-    height: 260px;
-    float: right;
-    /*  margin-left: auto;
-      margin-right: auto;*/
+    width: 14vw;
+    height: 14vh;
+    padding-top: 100vh;
+    right: 0px;
+    margin-right: 18vw;
     background: url("../private/img/logo.png") no-repeat center;
     background-image: url("../img/logo_portfolio.svg");
     background-size: contain; }
 
+  .name_PT {
+    margin-top: 73vh;
+    margin-right: 18vw;
+    right: 0px;
+    position: absolute;
+    background-color: #3a3c3b;
+    width: 14vw;
+    height: 5vh;
+    border-radius: 4px; }
+
   .job_d {
     visibility: visible; }
+
+  .job_m {
+    visibility: hidden; }
+
+  .section_01 {
+    background-color: #7c7d7b;
+    left: 0;
+    right: 0;
+    min-height: 50vh;
+    width: 50%;
+    float: left; }
+    .section_01 h1, .section_01 p {
+      color: #3a3c3b; }
+
+  .section_02 {
+    background-color: #3a3c3b;
+    left: 0;
+    right: 0;
+    min-height: 50vh;
+    width: 50%;
+    float: left; }
+    .section_02 h1, .section_02 p {
+      color: #eeebdc; }
+
+  .section_03 {
+    left: 0;
+    right: 0;
+    min-height: 120vh; }
+    .section_03 h1 {
+      color: #3a3c3b;
+      width: 220px;
+      padding-top: 5vh;
+      font-size: 2em;
+      margin-left: 15vw;
+      float: left;
+      text-align: center; }
+    .section_03 p {
+      float: left;
+      display: block;
+      line-height: 1.5;
+      color: #3a3c3b;
+      width: -250px;
+      font-size: 1.3em;
+      margin-top: 20vh;
+      margin-left: -20vh; }
 
   .menu {
     position: fixed;
@@ -392,12 +469,17 @@ ul {
       font-size: 1.5em;
       color: #eeebdc; }
 
-  .section_00 h1 {
-    margin-top: 100px;
-    font-size: 3.5em; }
-  .section_00 h2 {
-    padding-top: 100px;
-    font-size: 3.5em; } }
+  /*
+  .section_00{
+    h1{
+      margin-top: 100px;
+          font-size:3.5em;
+    }
+    h2{
+      padding-top: 100px;
+      font-size:3.5em;
+    }
+  }*/ }
 html, body {
   height: 100%; }
 

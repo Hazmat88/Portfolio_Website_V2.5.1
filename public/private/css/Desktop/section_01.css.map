@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAIA,WAAW;EACT,gBAAgB,ECIP,OAAO;EDHhB,IAAI,EAAE,CAAC;EAAE,KAAK,EAAC,CAAC;EAChB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAC,GAAG;EACT,KAAK,EAAC,IAAI;EACZ,6BAAI;IACF,KAAK,ECRC,OAAO",
+"sources": ["../../sass/Desktop/section_01.scss","../../sass/var/colors.scss"],
 "names": [],
 "file": "section_01.css"
 }

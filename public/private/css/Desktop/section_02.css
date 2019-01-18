@@ -1,3 +1,11 @@
-
+.section_02 {
+  background-color: #3a3c3b;
+  left: 0;
+  right: 0;
+  min-height: 50vh;
+  width: 50%;
+  float: left; }
+  .section_02 h1, .section_02 p {
+    color: #eeebdc; }
 
 /*# sourceMappingURL=section_02.css.map */

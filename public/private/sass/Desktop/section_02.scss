@@ -1,0 +1,15 @@
+@import "../var/colors.scss";
+@import "../var/fonts.scss";
+
+.section_02{
+  background-color: $black;
+  left: 0; right:0;
+  min-height: 50vh;
+  width:50%;
+  float:left;
+
+  h1,p{
+    color:$beige;
+  }
+
+}

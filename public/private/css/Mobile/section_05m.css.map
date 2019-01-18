@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAIA,WAAW;EACT,gBAAgB,ECCV,OAAO;EDAb,IAAI,EAAE,CAAC;EAAE,KAAK,EAAC,CAAC;EAChB,UAAU,EAAE,KAAK;EAGjB,cAAE;IACE,WAAW,EEPT,GAAG",
+"mappings": "AAIA,WAAW;EACT,gBAAgB,ECCV,OAAO;EDAb,IAAI,EAAE,CAAC;EAAE,KAAK,EAAC,CAAC;EAChB,UAAU,EAAE,KAAK;EAGjB,cAAE;IACA,KAAK,ECRD,OAAO;IDSX,UAAU,EAAE,MAAM;IAClB,WAAW,EETP,GAAG;IFUP,SAAS,EAAE,GAAG",
 "sources": ["../../sass/Mobile/section_05m.scss","../../sass/var/colors.scss","../../sass/var/fonts.scss"],
 "names": [],
 "file": "section_05m.css"

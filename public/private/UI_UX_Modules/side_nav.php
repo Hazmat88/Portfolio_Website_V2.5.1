@@ -5,9 +5,7 @@
 
         <ul>
         <a href="#ancre00"><li>HOME</li></a>
-        <a href="#section_01"><li>FRONT-END</li></a>
-        <a href="#section_02"><li>BACK-END</li></a>
-        <a href="#section_03"><li>ADDONS</li></a>
+        <a href="#section_01"><li>SKILLS</li></a>
         <a href="#section_04"><li>PROJECTS</li></a>
         <a href="#section_05"><li>CONTACTS</li></a>
       </ul>

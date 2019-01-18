@@ -7,54 +7,79 @@
 .section_00{
   background-color: $beige;//$darkgrey;
   h1{
+  //  width:50vh;// height:250px;
     position : absolute;
-    top: 300px;
-        font-size:3.5em;
+    top: 25vh;
+    font-size:7vh;
+    margin-left: auto;
+     margin-right: auto;
+     left: 50%; /* à 50%/50% du parent référent */
+     transform: translateX(-50%);
   }
   h2{
+    //width:200px;height:250px;
     position : absolute;
-  top: 200px;
-    font-size:3.5em;
+    top:40vh;
+    font-size:5vh;
+    margin-left: auto;
+     margin-right: auto;
+     left: 50%; /* à 50%/50% du parent référent */
+     transform: translateX(-50%);
   }
 
 }
 
 
 //LOGOS Wrapper
-/*.test{
-  width: 300px;
-  height: 300px;
-  background-color: $black;
-}*/
-.logo_CV {
 
-  width:250px; height:250px;
-  //top:50vh;
-  display: inline;
-  float:left;
-/*  margin-left: auto;
-  margin-right: auto;*/
+.logo_CV {
+  position:absolute;
+  width:14vw; height:14vh;
+  padding-top:100vh;
+   margin-left: 18vw;
+  //margin-right: auto;*/
   background: url("../private/img/logo.png") no-repeat center;//fallback
   background-image: url('../img/logo_CV.svg');
   background-size: contain;
 }
 
+.name_CV{
+    margin-top:73vh;
+    margin-left: 18vw;
+    position:absolute;
+    background-color: $black;
+    width:14vw; height:5vh;
+    border-radius: 4px;
+}
 
 .logo_portfolio {
-  top:200px;
-  display: inline;
+  position:absolute;
   visibility: visible;
-  width:260px; height:260px;
-  float:right;
-  //top:50vh;
-  //display: block;
-/*  margin-left: auto;
-  margin-right: auto;*/
+  //width:30vh; height:30vh;
+  width:14vw; height:14vh;
+  padding-top:100vh;
+  // margin-left: 65vw;
+  right: 0px;
+  margin-right: 18vw;
   background: url("../private/img/logo.png") no-repeat center;//fallback
   background-image: url('../img/logo_portfolio.svg');
   background-size: contain;
 }
 
+.name_PT{
+    margin-top:73vh;
+    margin-right: 18vw;
+    right: 0px;
+    position:absolute;
+    background-color: $black;
+    width:14vw; height:5vh;
+    border-radius: 4px;
+}
+
 .job_d{
   visibility:visible;
+}
+
+.job_m{
+  visibility: hidden;
 }

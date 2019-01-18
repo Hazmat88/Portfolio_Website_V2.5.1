@@ -1,3 +1,23 @@
-
+.section_03 {
+  left: 0;
+  right: 0;
+  min-height: 120vh; }
+  .section_03 h1 {
+    color: #3a3c3b;
+    width: 220px;
+    padding-top: 5vh;
+    font-size: 2em;
+    margin-left: 15vw;
+    float: left;
+    text-align: center; }
+  .section_03 p {
+    float: left;
+    display: block;
+    line-height: 1.5;
+    color: #3a3c3b;
+    width: -250px;
+    font-size: 1.3em;
+    margin-top: 20vh;
+    margin-left: -20vh; }
 
 /*# sourceMappingURL=section_03.css.map */

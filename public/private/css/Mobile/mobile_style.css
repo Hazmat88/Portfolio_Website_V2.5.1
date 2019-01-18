@@ -103,7 +103,7 @@ nav {
   .section_02 p {
     line-height: 1.5;
     color: #3a3c3b;
-    width: 175px;
+    width: 160px;
     font-size: 1.3em;
     margin-top: 10vh;
     margin-left: auto;
@@ -124,10 +124,10 @@ nav {
   .section_03 p {
     line-height: 1.5;
     color: #3a3c3b;
-    width: 220px;
+    width: 215px;
     font-size: 1.3em;
     margin-top: 5vh;
-    margin-bottom: 7vh;
+    padding-bottom: 6vh;
     margin-left: auto;
     margin-right: auto; }
 
@@ -135,16 +135,19 @@ nav {
   background-color: #8b8b83;
   left: 0;
   right: 0;
-  min-height: 110vh; }
+  min-height: 150vh; }
   .section_04 h1 {
-    padding-top: 5vh; }
+    color: #3a3c3b;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2em; }
 
 .S0401, .S0402, .S0403 {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5vh;
-  width: 60vw;
-  height: 20vh;
+  margin-top: 10vh;
+  width: 70vw;
+  height: 30vh;
   background-color: #3a3c3b; }
 
 .section_05 {
@@ -153,7 +156,10 @@ nav {
   right: 0;
   min-height: 110vh; }
   .section_05 h1 {
-    padding-top: 5vh; }
+    color: #3a3c3b;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2em; }
 
 .menu {
   position: fixed;

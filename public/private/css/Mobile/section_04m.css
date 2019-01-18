@@ -2,16 +2,19 @@
   background-color: #8b8b83;
   left: 0;
   right: 0;
-  min-height: 110vh; }
+  min-height: 150vh; }
   .section_04 h1 {
-    padding-top: 5vh; }
+    color: #3a3c3b;
+    text-align: center;
+    padding-top: 5vh;
+    font-size: 2em; }
 
 .S0401, .S0402, .S0403 {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5vh;
-  width: 60vw;
-  height: 20vh;
+  margin-top: 10vh;
+  width: 70vw;
+  height: 30vh;
   background-color: #3a3c3b; }
 
 /*# sourceMappingURL=section_04m.css.map */

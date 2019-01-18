@@ -1,0 +1,33 @@
+@import "../var/colors.scss";
+@import "../var/fonts.scss";
+
+
+
+.section_03{
+  
+  left: 0; right:0;
+  min-height: 120vh;
+
+  h1{
+    color:$black;
+    width: 220px;
+    padding-top:$padtop;
+    font-size: 2em;
+  margin-left: 15vw;
+    float:left;
+    text-align: center;
+  }
+
+  p{
+    float:left;
+    display: block;
+    line-height:1.5;
+    color:$black;
+    width: -250px;
+    font-size: 1.3em;
+    margin-top: 20vh;
+    margin-left: -20vh;
+  //  padding-bottom: 6vh;
+
+  }
+}
