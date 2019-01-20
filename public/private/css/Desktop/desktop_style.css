@@ -121,24 +121,30 @@
 .section_03 {
   left: 0;
   right: 0;
-  min-height: 120vh; }
+  min-height: 100vh;
+  max-height: 140vh; }
+  .section_03 .column_pattern .col_1, .section_03 .column_pattern .col_2, .section_03 .column_pattern .col_3 {
+    margin-left: 15vw; }
+  .section_03 .column_pattern .col_1 {
+    background-color: red;
+    float: left; }
+  .section_03 .column_pattern .col_2 {
+    background-color: blue;
+    float: left; }
+  .section_03 .column_pattern .col_3 {
+    float: left; }
   .section_03 h1 {
     color: #3a3c3b;
-    width: 220px;
     padding-top: 5vh;
     font-size: 2em;
-    margin-left: 15vw;
-    float: left;
     text-align: center; }
   .section_03 p {
-    float: left;
-    display: block;
     line-height: 1.5;
     color: #3a3c3b;
-    width: -250px;
-    font-size: 1.3em;
-    margin-top: 20vh;
-    margin-left: -20vh; }
+    /*  width: -250px;
+      font-size: 1.3em;
+      margin-top: 20vh;
+      margin-left: -20vh;*/ }
 
 .menu {
   position: fixed;
