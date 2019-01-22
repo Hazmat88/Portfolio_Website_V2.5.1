@@ -1,4 +1,6 @@
-
+//IMPORT UI_UX_Modules
+@import "Modules_m/side_nav_m.scss";
+@import "Modules_m/vertical_nav_m.scss";
 
 
 //IMPORT MOBILE STYLE
@@ -9,7 +11,3 @@
 @import "section_03m.scss";
 @import "section_04m.scss";
 @import "section_05m.scss";
-
-//IMPORT UI_UX_Modules
-@import "Modules_m/side_nav_m.scss";
-@import "Modules_m/vertical_nav_m.scss";

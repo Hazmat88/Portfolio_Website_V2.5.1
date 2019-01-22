@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAIA,aAAa;EACX,QAAQ,EAAC,KAAK;EACd,GAAG,EAAC,GAAG;EACP,MAAM,EAAE,IAAI;EAAC,KAAK,EAAE,GAAG;EAEvB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAC,GAAG;EAEP,6BAAe;IACb,MAAM,EAAC,GAAG;IAAC,KAAK,EAAE,GAAG;IAErB,aAAa,EAAC,IAAI;IAClB,gBAAgB,ECbd,OAAO;IDcT,OAAO,EAAE,GAAG",
+"sources": ["../../../sass/Mobile/Modules_m/vertical_nav_m.scss","../../../sass/var/colors.scss"],
 "names": [],
 "file": "vertical_nav_m.css"
 }

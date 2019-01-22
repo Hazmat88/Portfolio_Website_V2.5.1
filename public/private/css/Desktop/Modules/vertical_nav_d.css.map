@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAEA,aAAa;EACX,QAAQ,EAAC,KAAK;EACd,GAAG,EAAC,GAAG;EACP,MAAM,EAAE,IAAI;EAAC,KAAK,EAAE,GAAG;EAEvB,UAAU,EAAE,IAAI;EAChB,KAAK,EAAC,GAAG;EAEP,6BAAe;IACb,MAAM,EAAC,GAAG;IAAC,KAAK,EAAE,GAAG;IAErB,aAAa,EAAC,IAAI;IAClB,gBAAgB,ECXd,OAAO;IDYT,OAAO,EAAE,GAAG",
+"sources": ["../../../sass/Desktop/Modules/vertical_nav_d.scss","../../../sass/var/colors.scss"],
 "names": [],
 "file": "vertical_nav_d.css"
 }

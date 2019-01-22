@@ -2,35 +2,36 @@
 @import "../var/fonts.scss";
 
 
-
+@media screen and (min-width: 1350px){
 .section_03{
 
   left: 0; right:0;
-  min-height: 100vh;
-  max-height: 140vh;
+  min-height: 50vh;
+  //height: 100vh;
 
 //Columns Ajustement
 
 .column_pattern{
 
 .col_1,.col_2,.col_3{
-  margin-left: 15vw;
+  margin-left: 17vw;
 }
 
       .col_1{
-        background-color: red;
+      //  background-color: $beige;
         float:left;
       //  height: 50vmin;
 
       }
 
       .col_2{
-        background-color: blue;
+      //  background-color: $beige;
         float:left;
       //  margin-left: 15vh;
       }
 
       .col_3{
+      //  background-color: $beige;
         float:left;
       //  margin-left: 15vh;
       }
@@ -44,7 +45,7 @@
     font-size: 2em;
   //margin-left: 15vw;
   //  float:left;
-    text-align: center;
+  //  text-align: center;
   }
 
   p{
@@ -60,3 +61,9 @@
 
   }
 }
+}
+
+  .section_03{
+    left: 0; right:0;
+    min-height: 100vh;
+  }

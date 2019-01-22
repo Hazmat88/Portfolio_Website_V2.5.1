@@ -34,7 +34,7 @@
                 Réalité Augmenté
               </p>
       </div>
-        
+
  </div>
 
 </section>

@@ -1,1 +1,22 @@
 @import "../../var/colors.scss";
+
+
+
+.vertical_nav{
+  position:fixed;
+  top:2px;
+  height: 50vh;width: 2vw;
+//  background-color: $grey;
+  margin-top: 25vh;
+  right:8vw;
+
+    .vertical_point{
+      height:3vh;width: 5vw;
+      //border-radius: 50%;
+      margin-bottom:10vh;
+      background-color: $black;
+      opacity: 0.9;
+    }
+
+//display:none;
+}

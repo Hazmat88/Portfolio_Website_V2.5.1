@@ -1,3 +1,15 @@
-
+.vertical_nav {
+  position: fixed;
+  top: 2px;
+  height: 50vh;
+  width: 2vw;
+  margin-top: 25vh;
+  right: 8vw; }
+  .vertical_nav .vertical_point {
+    height: 3vh;
+    width: 5vw;
+    margin-bottom: 10vh;
+    background-color: #3a3c3b;
+    opacity: 0.9; }
 
 /*# sourceMappingURL=vertical_nav_m.css.map */
