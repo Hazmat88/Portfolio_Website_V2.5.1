@@ -1,7 +1,7 @@
 @import "../../var/colors.scss";
 
 
-
+/*
 .vertical_nav{
   position:fixed;
   top:2px;
@@ -17,6 +17,27 @@
       background-color: $black;
       opacity: 0.9;
     }
+*/
+    .vertical_nav{
+      position:fixed;
+      top:2px;
+      height: 50vh;width: 2vh;
+    //background-color: $grey;
+      margin-top: 30vh;
+      right:2vh;
+
+        .vertical_point,.vertical_point_03{
+          height:3vh;width: 3vh;
+          border-radius: 15%;
+          margin-bottom:8vh;
+          background-color: $black;
+          opacity: 0.9;
+        }
+/*
+        .vertical_point_03{
+          visibility: visible;
+        }*/
+
 
 //display:none;
 }

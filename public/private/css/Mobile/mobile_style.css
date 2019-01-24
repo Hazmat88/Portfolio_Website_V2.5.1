@@ -66,17 +66,39 @@ ul {
     font-size: 1.5em;
     color: white; }
 
+/*
+.vertical_nav{
+  position:fixed;
+  top:2px;
+  height: 50vh;width: 2vw;
+//  background-color: $grey;
+  margin-top: 25vh;
+  right:8vw;
+
+    .vertical_point{
+      height:3vh;width: 5vw;
+      //border-radius: 50%;
+      margin-bottom:10vh;
+      background-color: $black;
+      opacity: 0.9;
+    }
+*/
 .vertical_nav {
   position: fixed;
   top: 2px;
   height: 50vh;
-  width: 2vw;
-  margin-top: 25vh;
-  right: 8vw; }
-  .vertical_nav .vertical_point {
+  width: 2vh;
+  margin-top: 30vh;
+  right: 2vh;
+  /*
+          .vertical_point_03{
+            visibility: visible;
+          }*/ }
+  .vertical_nav .vertical_point, .vertical_nav .vertical_point_03 {
     height: 3vh;
-    width: 5vw;
-    margin-bottom: 10vh;
+    width: 3vh;
+    border-radius: 15%;
+    margin-bottom: 8vh;
     background-color: #3a3c3b;
     opacity: 0.9; }
 
@@ -122,10 +144,12 @@ nav {
     text-align: center;
     margin-top: -20vh;
     font-size: 2.3em; }
+  .section_00 h3 {
+    visibility: hidden; }
 
 .logo_CV {
-  width: 35vh;
-  height: 35vh;
+  width: 30vh;
+  height: 30vh;
   padding-top: 50vh;
   /* pouss├® de la moiti├® de hauteur de viewport */
   margin-left: auto;

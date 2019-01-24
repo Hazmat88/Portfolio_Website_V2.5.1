@@ -19,6 +19,12 @@
     left: 50%;
     /* ├á 50%/50% du parent r├®f├®rent */
     transform: translateX(-50%); }
+  .section_00 h3 {
+    color: #eeebdc;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 1vh;
+    visibility: visible; }
 
 .logo_CV {
   position: absolute;

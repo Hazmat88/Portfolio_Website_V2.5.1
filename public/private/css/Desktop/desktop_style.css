@@ -50,6 +50,12 @@
     left: 50%;
     /* ├á 50%/50% du parent r├®f├®rent */
     transform: translateX(-50%); }
+  .section_00 h3 {
+    color: #eeebdc;
+    font-size: 3vh;
+    text-align: center;
+    margin-top: 1vh;
+    visibility: visible; }
 
 .logo_CV {
   position: absolute;
@@ -104,7 +110,16 @@
   right: 0;
   min-height: 50vh;
   width: 50%;
-  float: left; }
+  float: left;
+  /*
+  h1{
+    font-size: 3vh,
+  }
+  
+  p{
+    font-size: 2vh,
+  }
+  */ }
   .section_01 h1, .section_01 p {
     color: #3a3c3b; }
 
@@ -118,13 +133,13 @@
   .section_02 h1, .section_02 p {
     color: #eeebdc; }
 
-@media screen and (min-width: 1350px) {
+@media screen and (min-width: 1150px) {
   .section_03 {
     left: 0;
     right: 0;
     min-height: 50vh; }
     .section_03 .column_pattern .col_1, .section_03 .column_pattern .col_2, .section_03 .column_pattern .col_3 {
-      margin-left: 17vw; }
+      margin-left: 13vw; }
     .section_03 .column_pattern .col_1 {
       float: left; }
     .section_03 .column_pattern .col_2 {
@@ -134,14 +149,14 @@
     .section_03 h1 {
       color: #3a3c3b;
       padding-top: 5vh;
-      font-size: 2em; }
+      font-size: 2.5vw; }
     .section_03 p {
       line-height: 1.5;
       color: #3a3c3b;
-      /*  width: -250px;
-        font-size: 1.3em;
-        margin-top: 20vh;
-        margin-left: -20vh;*/ } }
+      font-size: 1.5vw;
+                 /*
+margin-top: 20vh;
+margin-left: -20vh;*/ } }
 .section_03 {
   left: 0;
   right: 0;
@@ -227,17 +242,18 @@ ul {
   }
 }*/
 .vertical_nav {
-  position: fixed;
-  top: 2px;
-  height: 50vh;
-  width: 2vw;
-  margin-top: 25vh;
-  right: 2vw; }
-  .vertical_nav .vertical_point {
-    height: 3vh;
-    width: 2vw;
-    margin-bottom: 10vh;
-    background-color: #3a3c3b;
-    opacity: 0.9; }
+  margin-top: 37vh;
+  right: 4vh;
+  /*
+      .vertical_point{
+        height:3vh;width: 3vh;
+        border-radius: 15%;
+        margin-bottom:8vh;
+        background-color: $black;
+        opacity: 0.9;
+      }
+  */ }
+  .vertical_nav .vertical_point_03 {
+    display: none; }
 
 /*# sourceMappingURL=desktop_style.css.map */

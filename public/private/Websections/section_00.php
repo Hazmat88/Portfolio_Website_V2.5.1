@@ -4,9 +4,9 @@
 <section id="section_00" class="section_00">
 
   <!-- LOGO PART -->
-  <div class="logo_CV"></div> <div class="name_CV"></div>
+  <div class="logo_CV"></div> <div class="name_CV"><h3>CV</h3></div>
   <!-- input for CV -->
-  <div class="logo_portfolio"></div><div class="name_PT"></div>
+  <div class="logo_portfolio"></div><div class="name_PT"><h3>Portfolio</h3></div>
   <!-- input for Portfolio -->
 
   <!-- ----------------------- -->

@@ -4,7 +4,16 @@
   right: 0;
   min-height: 50vh;
   width: 50%;
-  float: left; }
+  float: left;
+  /*
+  h1{
+    font-size: 3vh,
+  }
+  
+  p{
+    font-size: 2vh,
+  }
+  */ }
   .section_01 h1, .section_01 p {
     color: #3a3c3b; }
 

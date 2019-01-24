@@ -2,7 +2,7 @@
 @import "../var/fonts.scss";
 
 
-@media screen and (min-width: 1350px){
+@media screen and (min-width: 1150px){
 .section_03{
 
   left: 0; right:0;
@@ -14,7 +14,7 @@
 .column_pattern{
 
 .col_1,.col_2,.col_3{
-  margin-left: 17vw;
+  margin-left: 13vw;
 }
 
       .col_1{
@@ -42,7 +42,7 @@
     color:$black;
   //  width: 220px;
     padding-top:$padtop;
-    font-size: 2em;
+    font-size: 2.5vw;
   //margin-left: 15vw;
   //  float:left;
   //  text-align: center;
@@ -53,8 +53,8 @@
   //  display: block;
     line-height:1.5;
     color:$black;
-  /*  width: -250px;
-    font-size: 1.3em;
+
+    font-size: 1.5vw;/*
     margin-top: 20vh;
     margin-left: -20vh;*/
   //  padding-bottom: 6vh;
@@ -66,4 +66,5 @@
   .section_03{
     left: 0; right:0;
     min-height: 100vh;
+  
   }
