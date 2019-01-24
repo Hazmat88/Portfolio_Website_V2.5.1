@@ -14,7 +14,7 @@
 .column_pattern{
 
 .col_1,.col_2,.col_3{
-  margin-left: 13vw;
+  margin-left: 18vw;
 }
 
       .col_1{
@@ -42,7 +42,7 @@
     color:$black;
   //  width: 220px;
     padding-top:$padtop;
-    font-size: 2.5vw;
+    font-size: 1.7vw;
   //margin-left: 15vw;
   //  float:left;
   //  text-align: center;
@@ -53,8 +53,7 @@
   //  display: block;
     line-height:1.5;
     color:$black;
-
-    font-size: 1.5vw;/*
+    font-size: 1.2vw;/*
     margin-top: 20vh;
     margin-left: -20vh;*/
   //  padding-bottom: 6vh;
@@ -66,5 +65,8 @@
   .section_03{
     left: 0; right:0;
     min-height: 100vh;
-  
+  col_1{
+      padding-top: 20vh;
+  }
+
   }
