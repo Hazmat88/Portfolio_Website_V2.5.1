@@ -4,28 +4,28 @@
 
 
 .section_03{
-  background-color: $grey;
+  background:$grey;
   left: 0; right:0;
-  min-height: 120vh;
+  min-height: 105vh;
 
-  h1{
-    color:$black;
-    width: 220px;
-    padding-top:$padtop;
-    font-size: 2em;
-    margin-left: auto;
-    margin-right: auto;
-  }
+        h1{
+          color:$black;
+          width: 210px;
+          padding-top:$padtop;
+          font-size: 1.8em;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
-  p{
-    line-height:1.5;
-    color:$black;
-    width: 215px;
-    font-size: 1.3em;
-    margin-top: 5vh;
-    padding-bottom: 6vh;
-    margin-left: auto;
-    margin-right: auto;
-  }
+        p{
+          line-height:1.5;
+          color:$black;
+          width: 215px;
+          font-size: 1.3em;
+          margin-top: 5vh;
+          padding-bottom: 6vh;
+          margin-left: auto;
+          margin-right: auto;
+        }
 
 }

@@ -3,22 +3,14 @@
 @import "../var/fonts.scss";
 
 .section_01{
-  background-color: $darkgrey;
+  background-color: $grey;
   left: 0; right:0;
   min-height: 50vh;
   width:50%;
   float:left;
-h1,p{
-  color:$black;
-}
-/*
-h1{
-  font-size: 3vh,
-}
-
-p{
-  font-size: 2vh,
-}
-*/
+  
+    h1,p{
+      color:$black;
+    }
 
 }

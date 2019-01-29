@@ -20,8 +20,8 @@
   top: 2px;
   height: 50vh;
   width: 2vh;
-  margin-top: 30vh;
-  right: 2vh;
+  margin-top: 20vh;
+  right: 3vh;
   /*
           .vertical_point_03{
             visibility: visible;
@@ -31,7 +31,7 @@
     width: 3vh;
     border-radius: 15%;
     margin-bottom: 8vh;
-    background-color: #3a3c3b;
+    background-color: rgba(212, 133, 120, 0.6);
     opacity: 0.9; }
 
 /*# sourceMappingURL=vertical_nav_m.css.map */

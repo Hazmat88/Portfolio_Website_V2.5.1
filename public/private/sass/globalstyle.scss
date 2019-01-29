@@ -5,6 +5,8 @@
 
 //IMPORT VARIABLES
 @import "var/colors.scss";
+@import "var/fonts.scss";
+@import "var/size.scss";
 
 //IMPORT MIXINS
 @import "Mixins/mixins.scss";
@@ -19,11 +21,6 @@
 @import "Desktop/desktop_style.scss";
 }
 
-
-
-
-
-
 //Global stylesheet
 
 html,body{ //Definition hauteur element parent pour les enfants prennent tout la hauteur de l'ecran voulu avec propriété vh
@@ -31,17 +28,14 @@ html,body{ //Definition hauteur element parent pour les enfants prennent tout la
 }
 
 body{
-  background-color: blue;
-  //background-color: $darkgrey;
-   //transition: background-color .5s;
+  //background-color: blue;
 }
 
 h1,h2{
     color:$black;
 }
 
-
 p{
   color:$black;
-//  text-align: center;
+  //text-align: center;
 }

@@ -119,8 +119,8 @@ ul {
   top: 2px;
   height: 50vh;
   width: 2vh;
-  margin-top: 30vh;
-  right: 2vh;
+  margin-top: 20vh;
+  right: 3vh;
   /*
           .vertical_point_03{
             visibility: visible;
@@ -130,7 +130,7 @@ ul {
     width: 3vh;
     border-radius: 15%;
     margin-bottom: 8vh;
-    background-color: #3a3c3b;
+    background-color: rgba(212, 133, 120, 0.6);
     opacity: 0.9; }
 
 nav {
@@ -157,7 +157,7 @@ nav {
   width: 50px;
   height: 50px;
   top: 20px;
-  right: 15px;
+  right: 10px;
   background: url("../private/img/logo.png") no-repeat center;
   background-image: url("../img/logo_menu.svg");
   background-size: contain; }
@@ -246,15 +246,15 @@ nav {
     margin-right: auto; }
 
 .section_03 {
-  background-color: #aba9aa;
+  background: #aba9aa;
   left: 0;
   right: 0;
-  min-height: 120vh; }
+  min-height: 105vh; }
   .section_03 h1 {
     color: #3a3c3b;
-    width: 220px;
+    width: 210px;
     padding-top: 5vh;
-    font-size: 2em;
+    font-size: 1.8em;
     margin-left: auto;
     margin-right: auto; }
   .section_03 p {
@@ -296,6 +296,33 @@ nav {
     text-align: center;
     padding-top: 5vh;
     font-size: 2em; }
+  .section_05 input[type=text], .section_05 select, .section_05 textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #eeebdc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    height: 70px;
+    resize: vertical;
+    font-size: 1.3em; }
+  .section_05 input[type=submit] {
+    background-color: #3a3c3b;
+    color: #eeebdc;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 1.2em; }
+  .section_05 input[type=submit]:hover {
+    background-color: #45a049; }
+  .section_05 .container {
+    border-radius: 5px;
+    margin-top: 10vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 20px; }
 
 @media screen and (min-width: 600px) {
   .logo_home {
@@ -404,21 +431,12 @@ nav {
     visibility: hidden; }
 
   .section_01 {
-    background-color: #7c7d7b;
+    background-color: #aba9aa;
     left: 0;
     right: 0;
     min-height: 50vh;
     width: 50%;
-    float: left;
-    /*
-    h1{
-      font-size: 3vh,
-    }
-    
-    p{
-      font-size: 2vh,
-    }
-    */ }
+    float: left; }
     .section_01 h1, .section_01 p {
       color: #3a3c3b; }
 
@@ -430,38 +448,47 @@ nav {
     width: 50%;
     float: left; }
     .section_02 h1, .section_02 p {
-      color: #eeebdc; } }
-@media screen and (min-width: 600px) and (min-width: 1150px) {
+      color: #eeebdc; }
+
   .section_03 {
+    clear: both;
     left: 0;
     right: 0;
-    min-height: 50vh; }
-    .section_03 .column_pattern .col_1, .section_03 .column_pattern .col_2, .section_03 .column_pattern .col_3 {
-      margin-left: 18vw; }
-    .section_03 .column_pattern .col_1 {
-      float: left; }
-    .section_03 .column_pattern .col_2 {
-      float: left; }
-    .section_03 .column_pattern .col_3 {
-      float: left; }
+    min-height: 50vh;
+    background-color: #eeebdc; }
     .section_03 h1 {
       color: #3a3c3b;
-      padding-top: 5vh;
-      font-size: 1.7vw; }
+      font-size: 2em; }
     .section_03 p {
       line-height: 1.5;
       color: #3a3c3b;
-      font-size: 1.2vw;
-                 /*
-margin-top: 20vh;
-margin-left: -20vh;*/ } }
-@media screen and (min-width: 600px) {
-  .section_03 {
-    left: 0;
-    right: 0;
-    min-height: 100vh; }
-    .section_03 col_1 {
-      padding-top: 20vh; }
+      font-size: 1.3em; }
+
+  .column_pattern {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: space-around; }
+
+  .col {
+    border-radius: 10px;
+    padding: 5px;
+    width: 300px;
+    height: 310px;
+    margin-top: 10px; }
+
+  .section_05 .container {
+    border-radius: 5px;
+    margin-top: 12vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    padding: 20px; }
 
   .menu {
     position: fixed;
@@ -547,20 +574,12 @@ margin-left: -20vh;*/ } }
     right: 4vh;
     /*
         .vertical_point{
-          height:3vh;width: 3vh;
-          border-radius: 15%;
-          margin-bottom:8vh;
-          background-color: $black;
-          opacity: 0.9;
         }
     */ }
     .vertical_nav .vertical_point_03 {
       display: none; } }
 html, body {
   height: 100%; }
-
-body {
-  background-color: blue; }
 
 h1, h2 {
   color: #3a3c3b; }

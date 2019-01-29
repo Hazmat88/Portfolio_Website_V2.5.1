@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAEA,aAAa;EAEX,UAAU,EAAE,IAAI;EAChB,KAAK,EAAC,GAAG;EAEX;;;;;;;;IAQE;EACF,gCAAkB;IAChB,OAAO,EAAC,IAAI",
+"mappings": "AAEA,aAAa;EAEX,UAAU,EAAE,IAAI;EAChB,KAAK,EAAC,GAAG;EAEX;;;IAGE;EACE,gCAAkB;IAChB,OAAO,EAAC,IAAI",
 "sources": ["../../../sass/Desktop/Modules/vertical_nav_d.scss"],
 "names": [],
 "file": "vertical_nav_d.css"

@@ -1,19 +1,10 @@
 .section_01 {
-  background-color: #7c7d7b;
+  background-color: #aba9aa;
   left: 0;
   right: 0;
   min-height: 50vh;
   width: 50%;
-  float: left;
-  /*
-  h1{
-    font-size: 3vh,
-  }
-  
-  p{
-    font-size: 2vh,
-  }
-  */ }
+  float: left; }
   .section_01 h1, .section_01 p {
     color: #3a3c3b; }
 

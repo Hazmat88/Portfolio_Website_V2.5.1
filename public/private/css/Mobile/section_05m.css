@@ -8,5 +8,32 @@
     text-align: center;
     padding-top: 5vh;
     font-size: 2em; }
+  .section_05 input[type=text], .section_05 select, .section_05 textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #eeebdc;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    height: 70px;
+    resize: vertical;
+    font-size: 1.3em; }
+  .section_05 input[type=submit] {
+    background-color: #3a3c3b;
+    color: #eeebdc;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    height: 60px;
+    width: 150px;
+    font-size: 1.2em; }
+  .section_05 input[type=submit]:hover {
+    background-color: #45a049; }
+  .section_05 .container {
+    border-radius: 5px;
+    margin-top: 10vh;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    padding: 20px; }
 
 /*# sourceMappingURL=section_05m.css.map */

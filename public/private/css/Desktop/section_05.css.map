@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAIE,sBAAW;EACT,aAAa,EAAE,GAAG;EAClB,UAAU,EAAC,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;EAClB,OAAO,EAAE,IAAI",
+"sources": ["../../sass/Desktop/section_05.scss"],
 "names": [],
 "file": "section_05.css"
 }
