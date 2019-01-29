@@ -46,10 +46,8 @@
 //-- -------------- Section05 / CONTACT ----------------- -->
      include("private/Websections/section_05.php");
 
+include("private/Websections/section_06.php");
 
-//  FOOTER
-//-- -------------- Section05 / CONTACT ----------------- -->
-    //include("private/Websections/section_06.php");
 
 ?>
 

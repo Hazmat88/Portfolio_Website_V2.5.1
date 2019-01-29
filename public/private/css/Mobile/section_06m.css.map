@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,WAAW;EACT,QAAQ,EAAC,QAAQ;EACjB,KAAK,EAAE,IAAI;EACX,MAAM,EAAC,IAAI;EACX,gBAAgB,ECLV,OAAO;EDMb,UAAU,EAAE,KAAK;EACjB,cAAE;IACA,KAAK,ECTD,OAAO;IDUX,UAAU,EAAE,MAAM;IAClB,SAAS,EAAE,KAAK;IAChB,WAAW,EAAC,GAAG",
+"sources": ["../../sass/Mobile/section_06m.scss","../../sass/var/colors.scss"],
+"names": [],
+"file": "section_06m.css"
+}
